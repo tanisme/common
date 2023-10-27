@@ -16,6 +16,7 @@ add_library(jsoncpp STATIC
         src/jsoncpp/src/json_writer.cpp
         src/jsoncpp/src/json_value.cpp)
 
+
 #sqlite
 include_directories(sqlite3)
 add_library(sqlite3 STATIC
